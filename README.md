@@ -4,7 +4,7 @@
 [![Build Status](https://travis-ci.org/wololock/hexo-tag-share-post.svg?branch=master)](https://travis-ci.org/wololock/hexo-tag-share-post)
 [![Coverage Status](https://coveralls.io/repos/github/wololock/hexo-tag-share-post/badge.svg?branch=master)](https://coveralls.io/github/wololock/hexo-tag-share-post?branch=master)
 
-A small and dependency-free Hexo plugin that adds `share_post` tag and helper for adding text link to share blog post in social media. (Twitter, Facebook, adn LinkedIn.)
+A small and dependency-free Hexo plugin that adds `share_post` tag and helper for adding text link to share blog post in social media. (Twitter, Facebook, and LinkedIn.)
 
 ## Installation
 
@@ -25,7 +25,7 @@ Below example uses Markdown file.
 Share this blog post on {% share_post twitter %}, {% share_post facebook %}, and {% share_post linkedin %}
 ```
 
-Result:
+**Result:**
 
 Share this blog post on [Twitter](#), [Facebook](#), and [Linkedin](#)
 
@@ -38,7 +38,7 @@ You can also change the default label by passing the second argument to `share_p
 {% share_post linkedin "Share on Linkedin now!" %}
 ```
 
-Result:
+**Result:**
 
 [Share on Twitter now!](#) | [Share on Facebook now!](#) | [Share on Linkedin now!](#)
 
@@ -51,7 +51,7 @@ Below examples uses EJS template file.
 <%- share_post("facebook") %>
 ```
 
-Result:
+**Result:**
 
 [Facebook](#)
 
@@ -59,7 +59,7 @@ Result:
 <%- share_post("facebook", "Share on Facebook now!") %>
 ```
 
-Result:
+**Result:**
 
 [Share on Facebook now!](#)
 
