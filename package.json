@@ -1,0 +1,46 @@
+{
+  "name": "hexo-tag-share-post",
+  "version": "0.1.0",
+  "description": "Hexo tag plugin for embedding share links into the post body",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "nyc --reporter=html --reporter=text ava",
+    "coverage": "nyc report --reporter=text-lcov | coveralls"
+  },
+  "ava": {
+    "files": [
+      "specs/*_spec.js"
+    ],
+    "babel": true
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wololock/hexo-tag-share-post.git"
+  },
+  "author": "Szymon Stepniak <szymon.stepniak@gmail.com> (https://e.printstacktrace.blog)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wololock/hexo-tag-share-post/issues"
+  },
+  "homepage": "https://github.com/wololock/hexo-tag-share-post#readme",
+  "devDependencies": {
+    "@ava/babel": "^1.0.0",
+    "ava": "^3.8.1",
+    "coveralls": "^3.1.0",
+    "eslint": "^6.8.0",
+    "eslint-config-hexo": "^4.1.0",
+    "eslint-plugin-node": "^11.1.0",
+    "hexo": "^4.0.0",
+    "hexo-renderer-ejs": "^1.0.0",
+    "hexo-renderer-markdown-it": "^4.1.0",
+    "hexo-test-utils": "^0.4.1",
+    "nyc": "^15.0.1"
+  },
+  "directories": {
+    "lib": "./lib"
+  },
+  "engines": {
+    "node": ">=8.10.0"
+  }
+}

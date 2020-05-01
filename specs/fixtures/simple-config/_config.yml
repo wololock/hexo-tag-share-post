@@ -1,0 +1,6 @@
+permalink: :title/
+theme: test
+share_post:
+  twitter:
+    message: "READ THIS: %title - %link (from @%handle)"
+    handle: wololock
